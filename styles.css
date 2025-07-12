@@ -36,8 +36,46 @@
 
 .content {
   background-color: coral;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(250px,1fr));
+    gap:5px;
+}
+.card{
+    text-align: center;
+    background-color: white;
+}
+.announcements{
+    display: grid;
+    grid-template-rows: 1fr 25px 1fr;
+}
+.announcementContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+}
+#trendingHeader{
+    font-size: 20px;
+    text-align: center;
+
+}
+.trendingContainer{
+    display: grid;
+    grid-template-rows: 50px repeat(auto-fill,minmax(75px, 1fr));
+    gap: 5px;
+}
+.smallCard{
+    height:125px;
+    background-color: aquamarine;
+}
+.tinyCard{
+    background-color: blanchedalmond;
+}
 ul,
 li {
   margin: 0;
