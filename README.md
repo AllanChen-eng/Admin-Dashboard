@@ -1,2 +1,4 @@
 # Admin-Dashboard
-Project outcome: Use Grid and flexbox to design a layout
+Project outcome: Use Grid layout method and Flexbox to design a page
+
+Live Preview: https://allanchen-eng.github.io/Admin-Dashboard/
